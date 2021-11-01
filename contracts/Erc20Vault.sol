@@ -227,6 +227,7 @@ contract Erc20Vault is Withdrawable, IERC777Recipient {
         }
     }
 
+
     function migrate(
         address payable _to
     )
